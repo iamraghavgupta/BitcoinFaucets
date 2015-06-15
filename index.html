@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+<!-- CSS -->
+	<style>
+	body { height: 100%; width: 100%; }
+	.Frame {
+	border: 0px;
+	width: 100%;
+	margin: 0;
+	height: 93.5vh;
+	position: absolute;
+	top: 45px;
+	
+		}
+</style>
+<!-- CSS END -->
+<!-- JavaScript -->
+	    
+<script>
+function MB()
+{
+x=document.getElementById("Title"); 
+x.innerHTML="moonbit.co.in";    
+}
+
+function BK()
+{
+x=document.getElementById("Title");  
+x.innerHTML="bitcoinker.com";   
+}
+
+function Credits()
+{
+x=document.getElementById("Title");  
+x.innerHTML="Credits/Information";    
+</script>
+<!-- JavaScript End -->
+        <title>Bitcoin Faucet Collection</title>
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <link rel="stylesheet" type="text/css" href="assets/snap.css" />
+        <link rel="stylesheet" type="text/css" href="assets/demo.css" />
+    </head>
+    <body>
+        <div class="snap-drawers">
+            <div class="snap-drawer snap-drawer-left">
+                <div>
+                    <h3>Bitcoin Faucets Collection</h3>
+                    <div class="demo-social">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-text="UnfeelingTiger has a Bitcoin Faucet App, This app has a list of Faucets." data-url="unfeelingtiger.tk/bitcoinapp" data-count="none" data-via="UnfeelingTiger3">Tweet</a>
+                    </div>
+                    <h4>Demos</h4>
+                    <ul>
+                        <li><a href="http://moonbit.co.in/?ref=b57b2fe86c20" onclick="MB()" target="search_iframe">moonbit</a></li>
+                        <li><a href="http://bitcoinker.com/faucet?ref=a0c644aa7921" onclick="BK()" target="search_iframe">bitcoinker</a></li>
+			<li><a href="#" onclick="myFunction()" target="search_iframe"></a>Blank</li>
+			<li><a href="#" onclick="myFunction()" target="search_iframe"></a>Blank</li>
+			<li><a href="#" onclick="myFunction()" target="search_iframe"></a>Blank</li>
+                        <li><a href="CI.html" onclick="Credits()" target="search_iframe">Credits/Information</a></li>
+                    </ul>
+                    <div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="snap-drawer snap-drawer-right"></div>
+        </div>
+        
+        <div id="content" class="snap-content">
+
+            <div id="toolbar">
+                <a href="#" id="open-left"></a>
+                <h1 id="Title" >Welcome</h1>
+		<iframe src="Welcome.html" class="Frame" name="search_iframe" ></iframe>
+            </div>
+	
+        </div>
+        <script type="text/javascript" src="assets/snap.js"></script>
+        <script type="text/javascript">
+            var snapper = new Snap({
+                element: document.getElementById('content')
+            });
+            
+        </script>
+        <script type="text/javascript" src="assets/demo.js"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>       
+    </body>
+</html>
